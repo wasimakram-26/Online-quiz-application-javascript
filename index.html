@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h2 id="question">Question will appear here</h2>
+
+        <div class="options">
+            <button onclick="checkAnswer(0)" id="opt0"></button>
+            <button onclick="checkAnswer(1)" id="opt1"></button>
+            <button onclick="checkAnswer(2)" id="opt2"></button>
+            <button onclick="checkAnswer(3)" id="opt3"></button>
+        </div>
+
+        <p id="timer">Time Left: 10</p>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
